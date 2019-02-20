@@ -49,10 +49,9 @@ function sy_command(...)
             command = v..' '
         end
     end
-    windower.add_to_chat(123, command)
 
     local send = 'input //send '..your_name..' '..command
-    -- windower.add_to_chat(123, send)
+ 
     windower.send_command(send)
 end
 
