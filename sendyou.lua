@@ -50,8 +50,8 @@ function sy_command(...)
         end
     end
 
-    local send = 'input //send '..your_name..' '..command
- 
+    local send = 'send '..your_name..' '..command
+
     windower.send_command(send)
 end
 
